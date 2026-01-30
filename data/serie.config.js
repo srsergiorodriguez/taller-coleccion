@@ -2,37 +2,40 @@ const config = {
   "lang": "es",
   "localPort": "5173",
   "base": "https://srsergiorodriguez.github.io",
-  "baseurl": "/serie-mini",
-  "title": "Serie Mini",
-  "subtitle": "Un sistema para mini colecciones digitales",
+  "baseurl": "/taller-coleccion",
+  "title": "Mis Zines",
+  "subtitle": "Una colección  personal",
   "credits": "Por Sergio Rodríguez Gómez",
-  "copyright": "Todos los derechos reservados, 2024",
-  "logos": [
-    {img: "logos/logo.png", link: "https://github.com/srsergiorodriguez/serie-mini"}
-  ],
+  "copyright": "Todos los derechos reservados, 2026",
   "pages": {
     "iiifViewer": true,
     "metadataToShow": [
       {
         "key": "label",
-        "label": "Nombre",
+        "label": "Label",
         "type": "text"
       },
       {
-        "key": "autor",
-        "label": "Autor",
+        "key": "autores",
+        "label": "Autores",
         "type": "text"
       },
       {
         "key": "fecha",
         "label": "Fecha",
         "type": "text"
+      },
+      {
+        "key": "ciudad",
+        "label": "Ciudad",
+        "type": "text"
       }
     ],
     "metadataToIndex": [
-      "label",
-      "autor",
-      "fecha"
+      "autores",
+      "fecha",
+      "ciudad",
+      "medio_impresion"
     ]
   }
 };
